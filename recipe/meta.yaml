@@ -16,8 +16,6 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 1002
-  noarch: generic
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -28,7 +26,6 @@ requirements:
     - r-base
     - r-corpcor
     - r-svd
-
   run:
     - r-base
     - r-corpcor
@@ -41,7 +38,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=esaBcv
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: 'These functions estimate the latent factors of a given matrix, no matter it is high-dimensional
     or not. It tries to first estimate the number of factors using bi-cross-validation
     and then estimate the latent factor matrix and the noise variances. For more information
@@ -53,12 +50,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
 
 # The original CRAN metadata for this package was:
 
