@@ -1,11 +1,11 @@
-About r-esabcv
-==============
+About r-esabcv-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-esabcv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=esaBcv
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-esabcv-feedstock/blob/main/LICENSE.txt)
 
 Summary: These functions estimate the latent factors of a given matrix, no matter it is high-dimensional or not. It tries to first estimate the number of factors using bi-cross-validation and then estimate the latent factor matrix and the noise variances. For more information about the method, see Art B. Owen and Jingshu Wang 2015 archived article on factor model (http://arxiv.org/abs/1503.03515).
 
